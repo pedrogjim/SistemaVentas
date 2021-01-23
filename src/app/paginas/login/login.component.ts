@@ -71,10 +71,10 @@ export class LoginComponent implements OnInit {
 
   ValidarUsuario(){
     if(this.animalControl.value['codigo']=='01'){
-      GlobalConstants.apiURL="http://192.168.10.201/apiventas/"
+      GlobalConstants.apiURL="http://192.168.10.201/apiventas/";
             
     }else{
-      GlobalConstants.apiURL="http://192.168.11.200/apiventas/"
+      GlobalConstants.apiURL="http://192.168.11.200/apiventas/";
     }
     console.log(GlobalConstants.apiURL);
     
